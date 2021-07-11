@@ -1,0 +1,53 @@
+.message-container {
+  backdrop-filter: blur(10px);
+  position: fixed;
+  width: 250px;
+  top: 70px;
+  left: 0;
+  z-index: 10;
+}
+
+.error-container {
+  background-color: rgba(256, 0, 0, 0.45);
+}
+
+.success-container {
+  background-color: rgba(0, 256, 0, 0.45);
+}
+
+.message {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.cancle-message-button::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  transform: rotate(90deg) translateX(-5px);
+}
+
+.cancle-message-button {
+  transform: rotate(-45deg);
+  position: relative;
+  cursor: pointer;
+}
+
+.cancle-message-button,
+.cancle-message-button::after {
+  background-color: white;
+  width: 12px;
+  height: 2px;
+  border-radius: 15px;
+}
+
+.message-button {
+  position: absolute;
+  right: 0;
+  width: 23px;
+  height: 30px;
+  background-color: transparent;
+  font-weight: 300;
+  padding: 0.25rem 0.5rem 0 0;
+}

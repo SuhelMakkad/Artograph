@@ -1,0 +1,66 @@
+.checkout-modal-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+.checkout-modal-wrapper .modal-dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 25rem;
+  background-color: rgba(256, 256, 256, 0.05);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 0 1rem;
+}
+
+.checkout-total-title {
+  font-size: 3.7rem;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 1.1rem;
+  text-transform: capitalize;
+}
+
+.checkout-total {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e71247;
+  margin-top: 1rem;
+  white-space: nowrap;
+}
+
+.checkout-confirm-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  margin: 2rem 0;
+}
+
+.checkout-btn {
+  font-size: 1.1rem;
+  padding: 0.35em 0.5em;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 0.8rem;
+}
+
+.checkout-confirm {
+  background-color: #93c1fc;
+  color: #23497b;
+}
+
+.checkout-received {
+  background: #42e842;
+  color: #0f4a1c;
+}

@@ -1,0 +1,30 @@
+.wish-list {
+  font-size: 56px;
+  font-weight: 300;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-family: var(--cursive);
+  /* color: #ababf1; */
+  color: var(--text-primary);
+}
+
+.empty-container {
+  margin: 2rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.empty-text {
+  font-size: 56px;
+  font-weight: 300;
+  text-align: center;
+  font-family: var(--cursive);
+}
+
+@media (max-width: 450px) {
+  .empty-container {
+    margin: 2rem 1rem;
+  }
+}

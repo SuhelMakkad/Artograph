@@ -1,0 +1,31 @@
+.add-container {
+  margin-left: 15%;
+}
+.add-header {
+  font-size: 56px;
+  font-weight: 300;
+  margin: 2.5rem 0;
+  color: var(--text-primary);
+}
+.add-container .lable {
+  padding-top: 2.5rem;
+}
+.input::placeholder {
+  font-size: 18px;
+}
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  -moz-appearance: textfield;
+}
+textarea.input::placeholder {
+  font-family: "Roboto", sans-serif;
+}
+textarea.input {
+  font-family: "Roboto", sans-serif;
+  resize: none;
+  overflow: hidden;
+  /* min-height: 50px;
+  max-height: 100px; */
+}

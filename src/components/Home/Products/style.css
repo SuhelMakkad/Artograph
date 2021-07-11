@@ -1,0 +1,17 @@
+.products-container {
+  margin: 2rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+	justify-content: space-between;
+}
+
+.products-container > * {
+	width: 18rem;
+}
+
+@media (max-width: 450px) {
+  .products-container {
+    margin: 2rem 1rem;
+  }
+}

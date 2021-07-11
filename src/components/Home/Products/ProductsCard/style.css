@@ -1,0 +1,111 @@
+.products-outer-container {
+  padding: 1rem 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 200ms;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.products-outer-container:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.display-image-wrapper {
+  flex-grow: 1;
+}
+
+.display-image {
+  display: block;
+  height: 12rem;
+  width: 100%;
+}
+
+.add-svg {
+}
+
+.liked {
+  cursor: pointer;
+  fill: #e71247;
+  transition: 200ms;
+  d: path(
+    "M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+  );
+}
+
+.not-liked {
+  cursor: pointer;
+  fill: var(--secondary);
+}
+
+.like-svg {
+  margin-left: 1rem;
+  align-self: flex-end;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+}
+
+.download-svg-wrapper > svg {
+  cursor: pointer;
+  fill: var(--accent);
+  transition: fill 200ms ease-in-out;
+}
+.download-svg-wrapper:hover > svg {
+  fill: #ecf7f8;
+}
+
+.like-svg path {
+  transition: fill 200ms;
+}
+
+.like-svg:hover {
+  transform: scale(1.1);
+}
+
+.title,
+.price {
+  font-size: 1.25rem;
+}
+
+.title {
+  padding: 1rem 0;
+  font-family: var(--cursive);
+  color: var(--text-primary);
+  text-transform: capitalize;
+}
+
+.button-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.price {
+  text-align: start;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.buy-button {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  color: var(--primary);
+  background-color: var(--accent);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out;
+}
+
+.buy-button:hover {
+  background-color: #b5cce7;
+}
+
+@media (max-width: 316px) {
+  .add-svg {
+    flex-grow: 1;
+  }
+}
