@@ -3,15 +3,27 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
-	justify-content: space-between;
+  justify-content: space-between;
 }
 
 .products-container > * {
-	width: 18rem;
+  width: 18rem;
 }
 
 @media (max-width: 450px) {
   .products-container {
     margin: 2rem 1rem;
+  }
+}
+
+@media (max-width: 695px) and (min-width: 550px) {
+  .products-container > * {
+    width: 48%;
+  }
+}
+
+@media (max-width: 550px) {
+  .products-container > * {
+    width: 100%;
   }
 }
