@@ -14,8 +14,7 @@
   --action-disabled: rgba(255, 255, 255, 0.3);
   --action-disabledBackground: rgba(255, 255, 255, 0.12);
 
-  /* --background-default: #222121;
-  --background-paper: #303030; */
+  
   --background-default: #303030;
   --background-paper: #424242;
 
@@ -24,7 +23,7 @@
   --primary: #37445e;
   --secondary: #12e7dc;
   --tertiary: #050bb6;
-  --accent: #c9e0fd;
+  --accent: #c9fdfb;
 
   --cursive: "Bad Script", cursive;
 }
@@ -33,7 +32,7 @@
   width: 5px;
   height: 5px;
 }
-/* (#158eff, #00a0d1) */
+
 ::-webkit-scrollbar-track {
   background-color: #00a0d1;
   border-radius: 5px;
